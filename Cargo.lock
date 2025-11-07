@@ -9112,8 +9112,10 @@ dependencies = [
  "either",
  "indexmap 2.9.0",
  "mime",
+ "ringmap",
  "serde",
  "serde_json",
+ "smallvec",
 ]
 
 [[package]]
@@ -9227,6 +9229,7 @@ dependencies = [
  "once_cell",
  "parking_lot",
  "pin-project-lite",
+ "pot",
  "rayon",
  "regex",
  "rustc-hash 2.1.1",
@@ -9239,12 +9242,14 @@ dependencies = [
  "tokio-util",
  "tracing",
  "triomphe 0.1.12",
+ "turbo-bincode",
  "turbo-dyn-eq-hash",
  "turbo-rcstr",
  "turbo-tasks-hash",
  "turbo-tasks-macros",
  "turbo-tasks-malloc",
  "unsize",
+ "unty",
 ]
 
 [[package]]
@@ -9266,7 +9271,6 @@ dependencies = [
  "lmdb-rkv",
  "once_cell",
  "parking_lot",
- "pot",
  "rand 0.9.0",
  "regex",
  "ringmap",
@@ -9280,6 +9284,7 @@ dependencies = [
  "thread_local",
  "tokio",
  "tracing",
+ "turbo-bincode",
  "turbo-persistence",
  "turbo-rcstr",
  "turbo-tasks",
